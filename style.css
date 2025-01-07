@@ -1,3 +1,13 @@
+
+:root{
+  font-family: "Alice", serif;
+  font-size: 16px;
+  line-height: 150%;
+  -webkit-font-smoothing: antialiased; /*para suavizar ao estilo da fonte*/
+ 
+  
+}
+
 body {
   background-image: url(assets/background-image.jpg);
   background-size: cover; /*Propriedade que cobre toda a página. Faz com que a imagem de fundo não seja replicada quando da redução do zoom. */
@@ -9,8 +19,23 @@ body {
   border-radius: 24px;
   padding: 24px;
   width: 800px;
+  margin: 48px auto; /*para alinhar ao meio a propriedade é margin: auto. Nesse caso o eixo x é auto mas o y tem 48px*/
 }
 
 img {
   border-radius: 16px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #291B1A;
+  line-height: 140%; 
+}
+
+h2 {
+  color: #291B1A;
+}
+
+p, ul {
+  color: #573A37;
 }

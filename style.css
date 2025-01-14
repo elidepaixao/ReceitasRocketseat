@@ -5,16 +5,18 @@
 
 :root{
   font-family: "Alice", serif;
-  font-size: 16px;
   line-height: 150%;
   -webkit-font-smoothing: antialiased; /*para suavizar ao estilo da fonte*/
+  color: #573A37;
  
   
 }
 
 body {
+  background-color: #573824;
   background-image: url(assets/background-image.jpg);
   background-size: cover; /*Propriedade que cobre toda a página. Faz com que a imagem de fundo não seja replicada quando da redução do zoom. */
+  
 }
 
 #page {
@@ -32,19 +34,38 @@ img {
 
 main {
   padding: 24px;
-  
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+#about p + p {
+  margin-top: 12px;
+
 }
 
 h1 {
   font-size: 40px;
-  color: #291B1A;
+  /*color: #291B1A;*/
   line-height: 140%; 
+  margin-bottom: 4px;
+ 
 }
 
 h2 {
-  color: #291B1A;
+  font-size: 24px;
+
 }
 
-p, ul {
-  color: #573A37;
+h1, h2 {
+  color: #291B1A;
+  line-height: 180%;
 }
+
+footer {
+color: #291B1A;
+text-align: center;
+padding-bottom: 48px;
+}
+
